@@ -1,0 +1,8 @@
+<%= simple_form_for @restaurant do |f| %>
+<br></br>
+<%= f.input :name, placeholder: "name", :required => true%>
+<%= f.input :address, placeholder: "address", :required => true%>
+<%= f.input :phone_number, placeholder: "number"%>
+<%= f.input :category, placeholder: "category", :required => true%>
+<%= f.submit %>
+<% end %>
